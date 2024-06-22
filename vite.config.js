@@ -10,7 +10,7 @@ export default defineConfig(
     {
        
         appType: 'mpa',
-        
+        base: "/pw2_vitempa/",
         build: {
             rollupOptions: {
                 input: Object.fromEntries(
